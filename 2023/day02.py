@@ -65,7 +65,6 @@ if __name__ == "__main__":
     parsed_data = parse_input(data)
     parsed_games = parse_games(parsed_data)
 
-    # print(f"original data {parsed_data}")
     answer_a = calc_color_total(parsed_games)
     # part a:
     logging.info(f"answer part a: {answer_a}")
